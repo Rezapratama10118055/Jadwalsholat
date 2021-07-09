@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="scrollStyle">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarSize">5dp</item>
+        <item name="android:scrollbarFadeDuration">500</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">100</item>
+        <item name="android:scrollbarThumbVertical">@color/design_default_color_primary_dark</item>
+        <item name="android:scrollbarTrackVertical">@color/teal_700</item>
+
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/frame"
+    tools:context=".MenuActivity">
+
+
+
+    <Button
+        android:id="@+id/btn_jadwal_sholat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonFocused"
+        android:layout_marginBottom="10dp"
+
+        android:text="Jadwal Sholat"
+
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_arah_kiblat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#84E087"
+        android:text="Berita Islam" />
+
+    <Button
+        android:id="@+id/surah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/line"
+        android:backgroundTint="#84E087"
+        android:text="Niat Sholat"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/alquran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:backgroundTint="#84E087"
+        android:text="Al-quran"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
